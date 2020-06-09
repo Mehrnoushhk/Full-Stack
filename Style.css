@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'BYekan',Sans-Serif;
+    src:  url('http://www.fontonline.ir/css/BYekan.css') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.box-type1{
+    background-color: #b98ab5;
+    color: aliceblue;
+    font-size: 18px;
+    direction: rtl;
+    font-family: 'Byekan';
+}
