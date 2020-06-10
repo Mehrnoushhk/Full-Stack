@@ -1,13 +1,85 @@
-@font-face {
-    font-family: 'BYekan',Sans-Serif;
-    src:  url('http://www.fontonline.ir/css/BYekan.css') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+.{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: #f8f9fa;;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  direction: ltr;
+}
+a{
+  text-decoration: none;
+  color: #417e4f;
+}
+a:hover{
+  color: #0d3817;
+  text-decoration: underline;
+}
+a:active{
+  color: red;
+}
+a:visited{
+  color: black;
+  text-decoration: overline;
+}
+/* }
+.container{
+  width: 60%;
+  margin: auto;
+  background-color: #417e4f;
+  border-radius: 10px;
+  border-color: #417e4f;
+
+
+} */
 .box-type1{
-    background-color: #b98ab5;
+    width: 60%;
+    margin: auto;
+    background-color: #417e4f;
+    border-radius: 10px;
+    border-color: #417e4f;
     color: aliceblue;
-    font-size: 18px;
-    direction: rtl;
-    font-family: 'Byekan';
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    line-height: 1.6em;
+
+}
+.box-type1 h1{
+  color: #18012a;
+  text-transform: uppercase;
+  
+}
+.box-type2{
+  width: 40%;
+  margin: auto;
+  background-color: #730b7c;
+  border-radius: 30px;
+  border-color: #000000;
+  border-style: dashed;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px; 
+  line-height: 1.6em;  
+}
+.categories{
+  margin: auto;
+  width: fit-content;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #95d4a4;
+  padding: 15px;
+}
+.categories h2{
+  text-align: center;
+}
+.categories ul{
+  padding: 0px;
+  list-style: none;
 }
